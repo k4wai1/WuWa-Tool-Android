@@ -1,7 +1,7 @@
 # WuWa Tool 🛠️
 
 <div align="center">
-  <img src="https://count.getloli.com/@hio?name=hio&theme=rule34&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=1&num=5687" alt="Moe Counter" />
+  <img src="https://count.getloli.com/get/@wuwa-tool-k4wai1?name=wuwa-tool-k4wai1&theme=rule34&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=1" alt="Moe Counter" />
   <br><br>
   <a href="https://ko-fi.com/kwai1">
     <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Support me on Ko-fi" />
