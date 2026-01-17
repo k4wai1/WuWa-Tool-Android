@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">WuWa Tool</string>
+    
+    <string name="perm_title">Required Permissions</string>
+    <string name="perm_subtitle">To make the magic work ✨</string>
+    <string name="perm_shizuku_title">Shizuku (ADB/Root)</string>
+    <string name="perm_shizuku_desc">Required to modify internal game files.</string>
+    <string name="perm_storage_title">Storage</string>
+    <string name="perm_storage_desc">Required to read your configuration folders.</string>
+    <string name="btn_allow">Allow</string>
+    <string name="status_ready">✅ Ready</string>
+
+    <string name="panel_title">Control Panel</string>
+    <string name="source_configs">Config Source</string>
+    <string name="selected_folder">Selected Folder</string>
+    <string name="permission_lost">Permission lost</string>
+    <string name="no_folder_selected">No folder selected</string>
+    <string name="btn_select_folder">Select Folder</string>
+    <string name="btn_change_folder">Change Folder</string>
+    <string name="select_folder_hint">Select a folder with your configurations</string>
+    <string name="empty_list_title">Nothing here yet</string>
+    <string name="empty_list_desc">select a folder with configurations\n(*^▽^*)</string>
+    <string name="btn_refresh">Refresh</string>
+
+    <string name="item_backup_name">🛡️ Original Backup</string>
+    <string name="item_backup_desc">Restore safe configuration</string>
+    <string name="item_config_desc">Custom configuration</string>
+    <string name="btn_restore">Restore</string>
+    <string name="btn_apply">Apply</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="menu_about">About</string>
+    <string name="settings_dark_mode">Dark Mode</string>
+    <string name="settings_show_delete">Show delete button</string>
+    <string name="btn_close">Close</string>
+    
+    <string name="about_title">About WuWa Tool</string>
+    <string name="about_desc">Tool developed to manage graphic configurations easily.</string>
+    <string name="about_ai">✨ Powered by AI</string>
+    <string name="btn_github">Visit GitHub</string>
+
+    <string name="dialog_delete_title">Delete Configuration?</string>
+    <string name="dialog_delete_msg">You are about to delete the folder "%1$s". This action cannot be undone.</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_cancel">Cancel</string>
+
+    <string name="disclaimer_title">Important Notice</string>
+    <string name="disclaimer_risk_title">⚠️ GAME RISK</string>
+    <string name="disclaimer_risk_body">This tool modifies internal files (.ini). Although generally safe, use at your own risk. Developers are not responsible for bans or crashes.</string>
+    <string name="disclaimer_howto_title">📂 HOW TO CREATE CONFIGS</string>
+    <string name="disclaimer_howto_body">1. Create a folder named after your config (e.g., \'MaxFPS\').\n2. Put your \'Engine.ini\', etc., inside.\n3. Subfolders don\'t matter! The app uses \'Smart Search\' to find the files.</string>
+    <string name="btn_understood">Understood</string>
+
+    <string name="backup_info_title">Backup System</string>
+    <string name="backup_info_msg">A copy of your original files will be created at:\n\n/InternalStorage/.WuWa_Backup\n\nSo they are safe no matter what.</string>
+    <string name="btn_ok">OK</string>
+
+    <string name="msg_folder_deleted">Folder "%1$s" deleted 🗑️</string>
+    <string name="msg_delete_error">Error deleting: %1$s</string>
+    <string name="msg_backup_restored">Backup restored ✅</string>
+    <string name="msg_backup_missing">Backup not found (.WuWa_Backup) ❌</string>
+    <string name="msg_backup_create_error">⚠️ Error creating backup. Check access.</string>
+    <string name="msg_config_applied">Config applied: %1$s 🚀</string>
+    <string name="msg_config_error">Error applying config ❌</string>
+</resources>

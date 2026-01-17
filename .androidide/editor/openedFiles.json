@@ -1,0 +1,65 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/WuWaTool/app/src/main/java/com/k4wa1/wuwatool/MainActivity.kt",
+      "selection": {
+        "end": {
+          "column": 1,
+          "index": 28410,
+          "line": 638
+        },
+        "start": {
+          "column": 1,
+          "index": 28410,
+          "line": 638
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/WuWaTool/app/src/main/res/values/strings.xml",
+      "selection": {
+        "end": {
+          "column": 16,
+          "index": 276,
+          "line": 6
+        },
+        "start": {
+          "column": 16,
+          "index": 276,
+          "line": 6
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/WuWaTool/app/src/main/res/values-en/strings.xml",
+      "selection": {
+        "end": {
+          "column": 12,
+          "index": 3866,
+          "line": 64
+        },
+        "start": {
+          "column": 12,
+          "index": 3866,
+          "line": 64
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/WuWaTool/app/src/main/AndroidManifest.xml",
+      "selection": {
+        "end": {
+          "column": 8,
+          "index": 860,
+          "line": 21
+        },
+        "start": {
+          "column": 8,
+          "index": 860,
+          "line": 21
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/WuWaTool/app/src/main/AndroidManifest.xml"
+}

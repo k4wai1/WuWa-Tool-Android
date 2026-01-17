@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">WuWa Tool</string>
+    
+    <string name="perm_title">Permisos Necesarios</string>
+    <string name="perm_subtitle">Para que la magia funcione ✨</string>
+    <string name="perm_shizuku_title">Shizuku (ADB/Root)</string>
+    <string name="perm_shizuku_desc">Necesario para modificar los archivos internos del juego.</string>
+    <string name="perm_storage_title">Almacenamiento</string>
+    <string name="perm_storage_desc">Necesario para leer tus carpetas de configuración.</string>
+    <string name="btn_allow">Permitir</string>
+    <string name="status_ready">✅ Listo</string>
+
+    <string name="panel_title">Panel de Control</string>
+    <string name="source_configs">Origen de Configs</string>
+    <string name="selected_folder">Carpeta Seleccionada</string>
+    <string name="permission_lost">Permiso perdido</string>
+    <string name="no_folder_selected">Ninguna carpeta seleccionada</string>
+    <string name="btn_select_folder">Seleccionar Carpeta</string>
+    <string name="btn_change_folder">Cambiar Carpeta</string>
+    <string name="select_folder_hint">Selecciona una carpeta con tus configuraciones</string>
+    <string name="empty_list_title">Aún no hay nada aquí</string>
+    <string name="empty_list_desc">selecciona una carpeta con las configuraciones\n(*^▽^*)</string>
+    <string name="btn_refresh">Actualizar</string>
+
+    <string name="item_backup_name">🛡️ Backup Original</string>
+    <string name="item_backup_desc">Restaurar configuración segura</string>
+    <string name="item_config_desc">Configuración personalizada</string>
+    <string name="btn_restore">Restaurar</string>
+    <string name="btn_apply">Aplicar</string>
+
+    <string name="menu_settings">Configuración</string>
+    <string name="menu_about">Acerca de</string>
+    <string name="settings_dark_mode">Modo Oscuro</string>
+    <string name="settings_show_delete">Mostrar botón eliminar</string>
+    <string name="btn_close">Cerrar</string>
+    
+    <string name="about_title">Acerca de WuWa Tool</string>
+    <string name="about_desc">Herramienta desarrollada para facilitar la gestión de configuraciones gráficas.</string>
+    <string name="about_ai">✨ Potenciado con IA</string>
+    <string name="btn_github">Visitar GitHub</string>
+
+    <string name="dialog_delete_title">¿Borrar Configuración?</string>
+    <string name="dialog_delete_msg">Vas a eliminar la carpeta "%1$s". Esta acción no se puede deshacer.</string>
+    <string name="btn_delete">Borrar</string>
+    <string name="btn_cancel">Cancelar</string>
+
+    <string name="disclaimer_title">Aviso Importante</string>
+    <string name="disclaimer_risk_title">⚠️ RIESGO DEL JUEGO</string>
+    <string name="disclaimer_risk_body">Esta herramienta modifica archivos internos (.ini). Aunque es generalmente seguro, úsala bajo tu propio riesgo. Los desarrolladores no se hacen responsables de bans o fallos.</string>
+    <string name="disclaimer_howto_title">📂 CÓMO CREAR CONFIGS</string>
+    <string name="disclaimer_howto_body">1. Crea una carpeta con el nombre de tu config (ej: \'MaxFPS\').\n2. Pon dentro tus archivos \'Engine.ini\', etc.\n3. ¡No importa si hay subcarpetas! La app usa \'Búsqueda Inteligente\' para encontrar los archivos.</string>
+    <string name="btn_understood">Entendido</string>
+
+    <string name="backup_info_title">Sistema de Backup</string>
+    <string name="backup_info_msg">Se creará una copia de tus archivos originales en:\n\n/AlmacenamientoInterno/.WuWa_Backup\n\nAsí estarán seguros pase lo que pase.</string>
+    <string name="btn_ok">OK</string>
+
+    <string name="msg_folder_deleted">Carpeta "%1$s" eliminada 🗑️</string>
+    <string name="msg_delete_error">Error al borrar: %1$s</string>
+    <string name="msg_backup_restored">Backup restaurado ✅</string>
+    <string name="msg_backup_missing">No se encontró backup (.WuWa_Backup) ❌</string>
+    <string name="msg_backup_create_error">⚠️ Error creando backup. ¿Tienes acceso?</string>
+    <string name="msg_config_applied">Config aplicada: %1$s 🚀</string>
+    <string name="msg_config_error">Error aplicando config ❌</string>
+</resources>

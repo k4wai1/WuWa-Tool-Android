@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    
+    <!-- Permiso para Shizuku API -->
+    <uses-permission android:name="moe.shizuku.manager.permission.API_V23" />
+
+    <queries>
+        <package android:name="moe.shizuku.privileged.api" />
+        <package android:name="moe.shizuku.manager" />
+        <provider android:authorities="moe.shizuku.manager.provider" />
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:label="WuWa Tool"
+        android:icon="@drawable/app_icon"
+        android:roundIcon="@drawable/app_icon"  
+        android:theme="@android:style/Theme.Material.Light.NoActionBar">
+        
+        <!-- IMPORTANTE: Metadata para Shizuku V3 -->
+        <meta-data
+            android:name="moe.shizuku.client.V3Support"
+            android:value="true" />
+
+        <!-- CAMBIO CRÍTICO: android:exported debe ser TRUE -->
+        <provider
+            android:name="rikka.shizuku.ShizukuProvider"
+            android:authorities="com.k4wa1.wuwatool.shizuku"
+            android:multiprocess="false"
+            android:enabled="true"
+            android:exported="true"
+            tools:ignore="ExportedContentProvider" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@android:style/Theme.Material.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
