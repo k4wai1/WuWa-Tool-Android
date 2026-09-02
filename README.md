@@ -6,11 +6,34 @@
   <a href="https://ko-fi.com/kwai1">
     <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Support me on Ko-fi" />
   </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-GPL--3.0-blue.svg" alt="License: GPL-3.0" />
+  </a>
 </div>
 
 <br>
 
+> 🚧 **Maintenance status** — I can't keep this project updated for the moment, so it's currently **unmaintained**. The APK releases may still work, but expect no updates or support.
+>
+> 🚧 **Estado de mantenimiento** — No voy a poder mantener este proyecto por el momento, así que está **sin mantenimiento activo**. Los APKs publicados pueden seguir funcionando, pero no esperes actualizaciones ni soporte.
+
+---
+
 **WuWa Tool** is an Android utility designed to organize, backup, and apply graphic configuration files (`.ini`) for **Wuthering Waves** securely and efficiently. It utilizes **Shizuku** to access and modify internal game files without requiring a traditional Root.
+
+---
+
+## ⭐ Recommended Alternative
+
+> **This project is my own app and remains as-is.** However, since it is not actively maintained, I recommend using the project developed by **Arglax** — an external developer whose work I personally use:
+>
+> **Este proyecto es mi app propia y sigue disponible tal cual.** Sin embargo, como no recibe mantenimiento activo, recomiendo usar el proyecto desarrollado por **Arglax** — un desarrollador externo cuyo trabajo yo mismo uso:
+
+* **[Mobile WuWa Config](https://github.com/Arglax/Mobile-WuWa-Config)** — Actively maintained configs for Wuthering Waves (V3.6), updated with each game patch. Includes a Discord community for support. / Configs activamente mantenidas para Wuthering Waves (V3.6), actualizadas con cada parche del juego. Incluye comunidad de Discord para soporte.
+
+* **[WuWa Config Patcher](https://github.com/Arglax/WuWa-Mobile-Config-Patcher)** — A lightweight Android app (6 MB) that does the same as this tool and more: 1-click patching via Shizuku, safe revert, built-in CVars editor, log decryption, and more. / Una app Android ligera (6 MB) que hace lo mismo que esta herramienta y más: parcheo 1-click vía Shizuku, reversión segura, editor de CVars integrado, descifrado de logs, y más.
+
+These are **third-party projects**, not affiliated with this repository, but they are more complete and actively maintained. / Estos son **proyectos de terceros**, no afiliados a este repositorio, pero son más completos y están activamente mantenidos.
 
 ---
 
@@ -73,3 +96,9 @@ The User Interface (UI) and logic implementation of this application were develo
 
 ## 👨‍💻 Developer
 **[k4wai1](https://github.com/k4wai1)**
+
+---
+
+## 📜 License
+
+This project is licensed under the **GNU General Public License v3.0** — see the [LICENSE](LICENSE) file for details.
